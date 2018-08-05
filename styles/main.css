@@ -81,7 +81,7 @@
       }
 
       .mobile {
-        display: inline-block;
+        display: block;
       }
 
       table {
@@ -89,8 +89,7 @@
       }
 
       div.main {
-/*        width: 100%;
-*/        min-width: 100%;
+        min-width: 100%;
         max-width: 100%;
       }
     }
