@@ -1,1 +1,175 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taylour Kroeker Portfolio</title>
+
+  <link rel="stylesheet" type="text/css" href="./styles/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600|Space+Mono:400,700" rel="stylesheet">
+
+  <style type="text/css">
+
+    body {
+      color: #333;
+      display: flex;
+      justify-content: center;
+      font-family: 'Space Mono', monospace;
+    }
+
+    p {
+      color: #555;
+      letter-spacing: -.5pt;
+    }
+
+    h1, h2, h3, h5, h6, .special {
+      color: #444;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 400;
+      letter-spacing: .5pt;
+    }
+
+    h1, h2 {
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-weight: 500;
+      font-size: 2.5em;
+    }
+
+    a, a:visited, a:active {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a:hover, h3 {
+      color: #ef5b5b;
+    }
+
+    i {
+      color: #ef5b5b;
+    }
+
+    div {
+      border: solid #ccc 1px;
+      box-sizing: border-box;
+      padding: 1em 1.5em 3em;
+    }
+/*
+    div.sidebar {
+      max-width: 20vw;
+      min-width: 20vw;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }*/
+
+    div.main {
+      box-shadow: 0 0 2.5em #777;
+      max-width: 70vw;
+      min-width: 500px;
+      padding: 1.5em 3em;
+    }
+
+    @media print {
+      body, div, h1, h2, h3, h4, i {
+        color: black;
+        display: block;
+        margin: 0;
+      }
+/*      div.sidebar {
+        min-width: 100vw;
+      }*/
+      div.main {
+        border: none;
+        box-shadow: none;
+        min-width: 100vw;
+        padding: 0;
+      }
+     /*#header, #footer, #nav { display: none; }*/
+    }
+
+  </style>
+</head>
+<body>
+<!--   <div class="sidebar">
+  </div> -->
+  <div class="main">
+    <h1 style="text-align: center;">Taylour Kroeker</h1>
+    <p class="special" style="text-align: center;">
+      <i class="fas fa-phone"></i> 604-700-6116 | <i class="fas fa-envelope-open"></i></i> <a href="mailto:taylour.em@gmail.com">taylour.em@gmail.com</a> | <i class="fab fa-github"></i></i> <a href="https://github.com/tailorem">tailorem</a> | <i class="fas fa-map-marker-alt"></i> Vancouver, BC
+    </p>
+
+    <h2>Summary</h2>
+    <p>Junior full-stack web developer with a great appreciation for collaborative problem solving. Excited by beautiful, functional interfaces, efficient, sustainable systems and forever seeking to expand my horizons. A 5 year history in the retail industry has encouraged me to develop my sense of dedication, persistence and enthusiasm as well as strong interpersonal and organizational skills.</p>
+
+    <table>
+      <tbody>
+        <tr style="vertical-align: text-top;">
+          <td style="width: 20%;">
+            <h2>Skills</h2>
+            <p>Persistence, dedication, enthusiasm and curiosity.</p>
+          </td>
+          <td style="width: 2%;"></td>
+          <td>
+            <h2>Projects</h2>
+
+            <p><a href="https://github.com/tailorem/midterm"><strong>Bendito</strong></a> - A responsive, team-built food-ordering and order management application that communicates with clients via SMS. Built with JavaScript, Express, Twilio API, Ajax, PostgreSQL, jQuery and HTML/CSS/SASS with Bootstrap.</p>
+
+            <p><a href="https://github.com/tailorem/relephant"><strong>Relephant</strong></a> - A single-page Twitter-clone application allowing users to anonymously create posts. Created using JavaScript, Express, Node.js, MongoDB, jQuery, Ajax and HTML/CSS.</p>
+
+            <p><a href="https://github.com/tailorem/tinyapp"><strong>TinyApp</strong></a> - A multi-page app allowing users to create and share shortened URLs. Coded following RESTful practices, using Node.js and Express for server-side implementation and HTML, EJS templating and custom CSS for front-end views.</p>
+
+            <h2>Education</h2>
+            <h3>Lighthouse Labs, Vancouver — Web Development Bootcamp</h3>
+            <p>JULY 2018-SEPTEMBER 2018</p>
+            <ul>
+              <li>Intensive full-stack web development bootcamp</li>
+              <li>500+ hours of mentor-assisted project-based programming</li>
+              <li>Building apps using HTML/CSS, JavaScript, SQL, React and more</li>
+            </ul>
+
+            <h2>Experience</h2>
+            <h3>Omer DeSerres, Vancouver — Assistant Manager</h3>
+            <p>APRIL-AUGUST 2016 & MARCH 2017-JULY 2018</p>
+            <ul>
+              <li>Managed daily store operations and staff scheduling</li>
+              <li>Supported, trained and worked alongside staff in all departments</li>
+              <li>Communicated daily with head office, suppliers and other locations</li>
+            </ul>
+
+            <h3>Omer DeSerres, Vancouver — Merchandiser</h3>
+            <p>JULY 2014-MARCH 2017</p>
+            <ul>
+              <li>Designed effective product layouts based on customer behavior</li>
+              <li>Created compelling displays through analysis of inventory and sales data</li>
+              <li>Led a full restructuring of store layout to maximize sales</li>
+            </ul>
+
+            <h3>Omer DeSerres, Vancouver — Sales Associate</h3>
+            <p>OCTOBER 2012-JULY 2014</p>
+            <ul>
+              <li>Encouraged customers to return by creating a welcoming atmosphere</li>
+              <li>Utilized arts knowledge to assist customers in making informed decisions</li>
+              <li>Operated POS system, maintained store stock and cleanliness</li>
+            </ul>
+
+            <h3>Environmental Youth Alliance, Vancouver — Youth Mentor</h3>
+            <p>JULY 2012-JULY 2013</p>
+            <ul>
+              <li>Guided youth at community-oriented events such as market plant giveaways</li>
+              <li>Prepared weekly informational materials and led activities to teach gardening skills</li>
+              <li>Aided in maintenance of community garden space</li>
+            </ul>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</body>
+</html>
