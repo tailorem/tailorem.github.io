@@ -21,7 +21,7 @@
       letter-spacing: -.5pt;
     }
 
-    h1, h2, h3, h5, h6, .special {
+    h1, h2, h3, h4, h5, h6, .special {
       color: #444;
       font-family: 'Oswald', sans-serif;
       font-weight: 400;
@@ -42,8 +42,9 @@
       text-decoration: none;
     }
 
-    a:hover, h3 {
+    a:hover, h4 {
       color: #ef5b5b;
+      margin-bottom: 0;
     }
 
     i {
@@ -70,11 +71,16 @@
     div.main {
       box-shadow: 0 0 2.5em #777;
       max-width: 70vw;
-      min-width: 500px;
+      min-width: 800px;
       padding: 1.5em 3em;
     }
 
     @media print {
+
+      body, p {
+        font-size: small;
+      }
+
       body, div, h1, h2, h3, h4, i {
         color: black;
         display: block;
@@ -83,6 +89,7 @@
 /*      div.sidebar {
         min-width: 100vw;
       }*/
+
       div.main {
         border: none;
         box-shadow: none;
@@ -102,29 +109,54 @@
     <p class="special" style="text-align: center;">
       <i class="fas fa-phone"></i> 604-700-6116 | <i class="fas fa-envelope-open"></i></i> <a href="mailto:taylour.em@gmail.com">taylour.em@gmail.com</a> | <i class="fab fa-github"></i></i> <a href="https://github.com/tailorem">tailorem</a> | <i class="fas fa-map-marker-alt"></i> Vancouver, BC
     </p>
+    <hr style="color: #ccc;" />
 
     <h2>Summary</h2>
-    <p>Junior full-stack web developer with a great appreciation for collaborative problem solving. Excited by beautiful, functional interfaces, efficient, sustainable systems and forever seeking to expand my horizons. A 5 year history in the retail industry has encouraged me to develop my sense of dedication, persistence and enthusiasm as well as strong interpersonal and organizational skills.</p>
+    <p>A junior full-stack web developer with a great appreciation for collaborative problem solving. Excited by beautiful & functional interfaces, efficient & sustainable systems and forever seeking to expand my horizons. My 5 year history in the retail industry encouraged me to develop my sense of dedication, persistence and enthusiasm, as well as strong interpersonal and organizational skills.</p>
 
     <table>
       <tbody>
         <tr style="vertical-align: text-top;">
-          <td style="width: 20%;">
+          <td style="width: 15%;">
             <h2>Skills</h2>
-            <p>Persistence, dedication, enthusiasm and curiosity.</p>
+            <ul style="list-style: none; padding: 0;">
+              <li>JavaScript</li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>·</li>
+              <li>Git VCS</li>
+              <li>Node.js</li>
+              <li>Knex.js</li>
+              <li>Express</li>
+              <li>JSON</li>
+              <li>jQuery</li>
+              <li>Ajax</li>
+              <li>React</li>
+              <li>SASS</li>
+              <li>MongoDB</li>
+              <li>PostgreSQL</li>
+              <li>Mocha/Chai unit testing</li>
+              <li>REST</li>
+              <li>Responsive design</li>
+              <li>OOP</li>
+              <li>·</li>
+              <li>Photoshop</li>
+              <li>Lightroom</li>
+              <li></li>
+            </ul>
           </td>
           <td style="width: 2%;"></td>
           <td>
             <h2>Projects</h2>
 
-            <p><a href="https://github.com/tailorem/midterm"><strong>Bendito</strong></a> - A responsive, team-built food-ordering and order management application that communicates with clients via SMS. Built with JavaScript, Express, Twilio API, Ajax, PostgreSQL, jQuery and HTML/CSS/SASS with Bootstrap.</p>
+            <p><a href="https://github.com/tailorem/midterm"><strong>Bendito</strong></a> - A responsive, team-built food-ordering and order management application that communicates with clients via SMS. Built with JavaScript, PostgreSQL, Express, Twilio API, Ajax, jQuery and HTML/CSS/SASS with Bootstrap.</p>
 
-            <p><a href="https://github.com/tailorem/relephant"><strong>Relephant</strong></a> - A single-page Twitter-clone application allowing users to anonymously create posts. Created using JavaScript, Express, Node.js, MongoDB, jQuery, Ajax and HTML/CSS.</p>
+            <p><a href="https://github.com/tailorem/relephant"><strong>Relephant</strong></a> - A single-page Twitter-clone application allowing users to anonymously create posts. Created using JavaScript, Express, Node.js, MongoDB, jQuery, Ajax and HTML/CSS and hosted on Heroku.</p>
 
             <p><a href="https://github.com/tailorem/tinyapp"><strong>TinyApp</strong></a> - A multi-page app allowing users to create and share shortened URLs. Coded following RESTful practices, using Node.js and Express for server-side implementation and HTML, EJS templating and custom CSS for front-end views.</p>
 
             <h2>Education</h2>
-            <h3>Lighthouse Labs, Vancouver — Web Development Bootcamp</h3>
+            <h4>Lighthouse Labs, Vancouver — Web Development Bootcamp</h4>
             <p>JULY 2018-SEPTEMBER 2018</p>
             <ul>
               <li>Intensive full-stack web development bootcamp</li>
@@ -133,7 +165,7 @@
             </ul>
 
             <h2>Experience</h2>
-            <h3>Omer DeSerres, Vancouver — Assistant Manager</h3>
+            <h4>Omer DeSerres, Vancouver — Assistant Manager</h4>
             <p>APRIL-AUGUST 2016 & MARCH 2017-JULY 2018</p>
             <ul>
               <li>Managed daily store operations and staff scheduling</li>
@@ -141,7 +173,7 @@
               <li>Communicated daily with head office, suppliers and other locations</li>
             </ul>
 
-            <h3>Omer DeSerres, Vancouver — Merchandiser</h3>
+            <h4>Omer DeSerres, Vancouver — Merchandiser</h4>
             <p>JULY 2014-MARCH 2017</p>
             <ul>
               <li>Designed effective product layouts based on customer behavior</li>
@@ -149,7 +181,7 @@
               <li>Led a full restructuring of store layout to maximize sales</li>
             </ul>
 
-            <h3>Omer DeSerres, Vancouver — Sales Associate</h3>
+            <h4>Omer DeSerres, Vancouver — Sales Associate</h4>
             <p>OCTOBER 2012-JULY 2014</p>
             <ul>
               <li>Encouraged customers to return by creating a welcoming atmosphere</li>
@@ -157,7 +189,7 @@
               <li>Operated POS system, maintained store stock and cleanliness</li>
             </ul>
 
-            <h3>Environmental Youth Alliance, Vancouver — Youth Mentor</h3>
+            <h4>Environmental Youth Alliance, Vancouver — Youth Mentor</h4>
             <p>JULY 2012-JULY 2013</p>
             <ul>
               <li>Guided youth at community-oriented events such as market plant giveaways</li>
