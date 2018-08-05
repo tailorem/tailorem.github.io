@@ -39,12 +39,12 @@
     }
 
     a:hover, h4 {
-      color: red;
+      color: #ef5b5b;
       margin-bottom: 0;
     }
 
     i {
-      color: red;
+      color: #ef5b5b;
     }
 
     div {
@@ -67,27 +67,35 @@
     @media print {
 
       body, p {
-        /*color: black;*/
+        color: black;
         font-size: .9em;
         margin-top: 0;
         margin-bottom: .75em;
       }
 
       ul, li {
-        /*color: black;*/
+        color: black;
         font-size: .9em;
         margin-top: 0;
       }
 
       body, div, h1, h2, h3, h4, i {
         /*color: black;*/
-        display: block;
+        /*display: block;*/
         margin: 0;
       }
 
-      h1, h2 {
-        margin-top: .4em;
+      h2 {
+        margin-top: .75em;
         margin-bottom: .5em;
+      }
+
+      h1 {
+        margin-bottom: .5em;
+      }
+
+      a:hover, h4, i, strong {
+        color: red;
       }
 
       div.main {
