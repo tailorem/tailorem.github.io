@@ -71,6 +71,30 @@
         display: none;
       }
 
+    .mobile {
+      display: none;
+    }
+
+    @media screen and (max-width: 800px) {
+      .web {
+        display: none;
+      }
+
+      .mobile {
+        display: inline-block;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      div.main {
+/*        width: 100%;
+*/        min-width: 100%;
+        max-width: 100%;
+      }
+    }
+
     @media print {
 
       body, p {
