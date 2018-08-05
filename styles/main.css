@@ -30,7 +30,7 @@
     h1 {
       font-weight: 500;
       font-size: 2.5em;
-      margin-bottom: 0;
+      margin: 0;
     }
 
     a, a:visited, a:active {
@@ -58,6 +58,12 @@
       max-width: 70vw;
       min-width: 800px;
       padding: 1.5em 3em;
+    }
+
+    #download {
+      display: block;
+      text-align: right;
+      margin: 1em;
     }
 
     .print {
@@ -113,7 +119,7 @@
         display: table-cell;
       }
 
-      .web {
+      .web, #download {
         display: none;
       }
      /*#header, #footer, #nav { display: none; }*/

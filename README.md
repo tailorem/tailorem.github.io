@@ -1,2 +1,2 @@
 ## Taylour Kroeker
-teylaaa@yahoo.ca
+taylour.em@gmail.com
