@@ -39,12 +39,12 @@
     }
 
     a:hover, h4 {
-      color: #ef5b5b;
+      color: red;
       margin-bottom: 0;
     }
 
     i {
-      color: #ef5b5b;
+      color: red;
     }
 
     div {
@@ -67,26 +67,27 @@
     @media print {
 
       body, p {
-        color: black;
+        /*color: black;*/
         font-size: .9em;
         margin-top: 0;
-        margin-bottom: .5em;
+        margin-bottom: .75em;
       }
 
       ul, li {
-        color: black;
+        /*color: black;*/
         font-size: .9em;
         margin-top: 0;
       }
 
       body, div, h1, h2, h3, h4, i {
-        color: black;
+        /*color: black;*/
         display: block;
         margin: 0;
       }
 
-      h2 {
-        /*font-size: 1.25em;*/
+      h1, h2 {
+        margin-top: .4em;
+        margin-bottom: .5em;
       }
 
       div.main {
@@ -98,6 +99,10 @@
 
       .print {
         display: inline-block;
+      }
+
+      td.print {
+        display: table-cell;
       }
 
       .web {
