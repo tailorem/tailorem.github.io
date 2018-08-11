@@ -34,18 +34,20 @@
       margin-top: .5em;
     }
 
+    .grey {
+      display: block;
+      color: #555;
+    }
+
     a, a:visited, a:active {
-      color: #333;
+      color: #444;
       text-decoration: none;
     }
 
-    a:hover, h4 {
+    a:hover, h3, i, strong.pink {
       color: #ef5b5b;
-      margin-bottom: 0;
-    }
-
-    i {
-      color: #ef5b5b;
+      display: inline;
+      /*margin-bottom: 0;*/
     }
 
     div {
@@ -124,7 +126,7 @@
         margin-bottom: .5em;
       }
 
-      a:hover, h4, i, strong {
+      a:hover, h3, i, strong.pink {
         color: red;
       }
 
