@@ -81,6 +81,10 @@
       display: none;
     }
 
+    #experience {
+      padding-left: 18%;
+    }
+
     @media screen and (max-width: 800px) {
       .web {
         display: none;
@@ -98,20 +102,24 @@
         min-width: 230px;
         max-width: 100%;
       }
+
+      #experience {
+        padding: 0;
+      }
     }
 
     @media print {
 
       body, p {
         color: black;
-        /*font-size: .9em;*/
+        font-size: .9em;
         margin-top: 0;
-        margin-bottom: .75em;
+        margin-bottom: .5em;
       }
 
       ul, li {
         color: black;
-        /*font-size: .9em;*/
+        font-size: .95em;
         margin-top: 0;
       }
 
@@ -119,15 +127,16 @@
         color: black;
         /*display: block;*/
         margin: 0;
+        padding: 0;
       }
 
       h2 {
-        margin-top: .75em;
+        margin-top: .5em;
         margin-bottom: .5em;
       }
 
       h1 {
-        margin-bottom: .5em;
+        margin-bottom: .25em;
       }
 
       a, a:visited, a:active, .special {
@@ -152,6 +161,10 @@
 
       .print {
         display: inline-block;
+      }
+
+      #experience {
+        padding: 0;
       }
 
       td.print {
