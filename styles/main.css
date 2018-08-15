@@ -73,7 +73,7 @@
     #download {
       display: block;
       text-align: right;
-      margin-top: .5em;
+      /*margin-top: .25em;*/
     }
 
     .print {
