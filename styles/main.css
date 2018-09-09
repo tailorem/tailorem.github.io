@@ -56,13 +56,10 @@
       /*margin-bottom: 0;*/
     }
 
-    div {
+    div.main {
       border: solid #ccc 1px;
       box-sizing: border-box;
       padding: 1em 1.5em 3em;
-    }
-
-    div.main {
       box-shadow: 0 0 2.5em #777;
       max-width: 70vw;
       min-width: 800px;
