@@ -98,12 +98,11 @@ padding-left: 18%;
     }
 
     table {
-        width: 100%;
+        min-width: 200px;
     }
 
     div.main {
-        min-width: 230px;
-        max-width: 100%;
+        min-width: 100%;
     }
 }
 
