@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6, .special {
     letter-spacing: .5pt;
 }
 
-h1, h2 {
+h2 {
+    margin-top: 20px;
     text-transform: uppercase;
-    margin-top: 0;
 }
 
 h1 {
@@ -35,6 +35,7 @@ h1 {
     font-size: 2.5em;
     margin: 0;
     margin-top: .5em;
+    text-transform: uppercase;
 }
 
 hr {
@@ -87,95 +88,96 @@ padding-left: 18%;
 }
 
 @media screen and (max-width: 800px) {
-.web {
-    display: none;
-}
+    .web {
+        display: none;
+    }
 
-.mobile {
-    display: block;
-}
+    .mobile {
+        display: block;
+    }
 
-table {
-    width: 100%;
-}
+    table {
+        width: 100%;
+    }
 
-div.main {
-    min-width: 230px;
-    max-width: 100%;
-}
-
-#experience {
-    padding: 0;
-}
+    div.main {
+        min-width: 230px;
+        max-width: 100%;
+    }
 }
 
 @media print {
 
-body, p {
-    color: black;
-    font-size: .9em;
-    margin-top: 0;
-    margin-bottom: .5em;
-}
+    hr {
+        margin: 0;
+        padding: 0;
+    }
 
-ul, li {
-    color: black;
-    font-size: .95em;
-    margin-top: 0;
-}
+    body, p {
+        color: black;
+        font-size: .9em;
+        margin-top: 0;
+        margin-bottom: .5em;
+    }
 
-body, div, h1, h2, h3, h4, i {
-    color: black;
-    /*display: block;*/
-    margin: 0;
-    padding: 0;
-}
+    ul, li {
+        color: black;
+        font-size: .95em;
+        margin-top: 0;
+    }
 
-h2 {
-    margin-top: .5em;
-    margin-bottom: .5em;
-}
+    body, div, h1, h2, h3, h4, i {
+        color: black;
+        /*display: block;*/
+        margin: 0;
+        padding: 0;
+    }
 
-h1 {
-    margin-bottom: .25em;
-}
+    h2 {
+        margin-top: 1em;
+        margin-bottom: .5em;
+    }
 
-a, a:visited, a:active, .special {
-    color: black;
-}
+    h1 {
+        margin-bottom: .25em;
+    }
 
-a:hover, h3, i, strong.pink {
-    color: red;
-}
+    a, a:visited, a:active, .special {
+        color: black;
+    }
 
-div.main {
-    border: none;
-    box-shadow: none;
-    min-width: 100vw;
-    padding: 0;
-}
+    a:hover, h3, i, strong.pink {
+        color: red;
+    }
 
-.grey {
-    display: block;
-    color: black;
-}
+    div.main {
+        border: none;
+        box-shadow: none;
+        min-width: 100vw;
+        padding: 0;
+    }
 
-.print {
-    display: inline-block;
-}
+    .grey {
+        display: block;
+        color: black;
+    }
 
-#experience {
-    padding: 0;
-}
+    .print {
+        display: inline-block;
+    }
 
-td.print {
-    display: table-cell;
-}
+    #experience {
+        padding: 0;
+    }
 
-.web, #download {
-    display: none;
-}
-/*#header, #footer, #nav { display: none; }*/
+    td.print {
+        display: table-cell;
+    }
+
+    .web, #download {
+        display: none;
+    }
+    /*#header, #footer, #nav { display: none; }*/
 }
 
 
