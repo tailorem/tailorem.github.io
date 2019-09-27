@@ -1,6 +1,6 @@
 body {
     color: #333;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     font-family: 'Space Mono', monospace;
     margin-bottom: 2em;
@@ -76,107 +76,108 @@ div.main {
 
 .print {
     display: none;
-    }
+}
 
 .mobile {
-    display: none;
+display: none;
 }
 
 #experience {
-    padding-left: 18%;
+padding-left: 18%;
 }
 
 @media screen and (max-width: 800px) {
-    .web {
-        display: none;
-    }
+.web {
+    display: none;
+}
 
-    .mobile {
-        display: block;
-    }
+.mobile {
+    display: block;
+}
 
-    table {
-        width: 100%;
-    }
+table {
+    width: 100%;
+}
 
-    div.main {
-        min-width: 230px;
-        max-width: 100%;
-    }
+div.main {
+    min-width: 230px;
+    max-width: 100%;
+}
 
-    #experience {
-        padding: 0;
-    }
+#experience {
+    padding: 0;
+}
 }
 
 @media print {
 
-    body, p {
-        color: black;
-        font-size: .9em;
-        margin-top: 0;
-        margin-bottom: .5em;
-    }
-
-    ul, li {
-        color: black;
-        font-size: .95em;
-        margin-top: 0;
-    }
-
-    body, div, h1, h2, h3, h4, i {
-        color: black;
-        /*display: block;*/
-        margin: 0;
-        padding: 0;
-    }
-
-    h2 {
-        margin-top: .5em;
-        margin-bottom: .5em;
-    }
-
-    h1 {
-        margin-bottom: .25em;
-    }
-
-    a, a:visited, a:active, .special {
-        color: black;
-    }
-
-    a:hover, h3, i, strong.pink {
-        color: red;
-    }
-
-    div.main {
-        border: none;
-        box-shadow: none;
-        min-width: 100vw;
-        padding: 0;
-    }
-
-    .grey {
-        display: block;
-        color: black;
-    }
-
-    .print {
-        display: inline-block;
-    }
-
-    #experience {
-        padding: 0;
-    }
-
-    td.print {
-        display: table-cell;
-    }
-
-    .web, #download {
-        display: none;
-    }
-    /*#header, #footer, #nav { display: none; }*/
+body, p {
+    color: black;
+    font-size: .9em;
+    margin-top: 0;
+    margin-bottom: .5em;
 }
+
+ul, li {
+    color: black;
+    font-size: .95em;
+    margin-top: 0;
+}
+
+body, div, h1, h2, h3, h4, i {
+    color: black;
+    /*display: block;*/
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+h1 {
+    margin-bottom: .25em;
+}
+
+a, a:visited, a:active, .special {
+    color: black;
+}
+
+a:hover, h3, i, strong.pink {
+    color: red;
+}
+
+div.main {
+    border: none;
+    box-shadow: none;
+    min-width: 100vw;
+    padding: 0;
+}
+
+.grey {
+    display: block;
+    color: black;
+}
+
+.print {
+    display: inline-block;
+}
+
+#experience {
+    padding: 0;
+}
+
+td.print {
+    display: table-cell;
+}
+
+.web, #download {
+    display: none;
+}
+/*#header, #footer, #nav { display: none; }*/
+}
+
 
 header {
     background-color: paleturquoise;
